@@ -1,3 +1,5 @@
+
+
 <footer class="page-footer white">
       <h4 style="color: white; padding: 3%" class="center light-blue  contact_text">Contact Us</h4>
 
@@ -47,7 +49,9 @@
     </div>
     <div class="footer-copyright light-blue">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://#">JL</a>
+      <?$_ENV['VERSION']?>
+      <?php include 'version.php'; ?> Made by <a class="orange-text text-lighten-3" href="http://#">JL</a>
+      
 
       </div>
     </div>
