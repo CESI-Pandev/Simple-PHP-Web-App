@@ -49,7 +49,6 @@
     </div>
     <div class="footer-copyright light-blue">
       <div class="container">
-      <?$_ENV['VERSION']?>
       <?php include 'version.php'; ?> Made by <a class="orange-text text-lighten-3" href="http://#">JL</a>
       
 
