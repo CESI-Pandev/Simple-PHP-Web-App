@@ -1,8 +1,8 @@
  <?php
-$servername = "spwa-mariadb"; // Server name where the app has the DB
-$username = "root"; // user of the DB 
-$password = "root"; // password of the DB
-$dbname = "mono"; // DB name 
+$servername = getenv("MARIADB_HOST"); // Server name where the app has the DB
+$username = getenv("MARIADB_USER"); // user of the DB 
+$password = getenv("MARIADB_PASSWORD"); // password of the DB
+$dbname = getenv("MARIADB_DATABASE"); // DB name 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
